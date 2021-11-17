@@ -28,10 +28,6 @@
   @include font(12px, bold, 15px, -0.25);
 }
 
-@mixin body {
-  @include font(12px);
-}
-
 .body1 {
   @include font(12px, medium, 15px, -0.25);
 }
