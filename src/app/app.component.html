@@ -1,4 +1,9 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<ng-container
+  *ngFor="let customClass of ['h1', 'h2', 'h3', 'h3-2', 'body1', 'body2']"
+>
+  <span [class]="customClass">
+    Aliquam porttitor mauris sit amet orci Aenean
+  </span>
+  <br />
+  <br />
+</ng-container>
